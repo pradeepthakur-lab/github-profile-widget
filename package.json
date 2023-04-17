@@ -1,5 +1,5 @@
 {
-  "name": "github-widget",
+  "name": "github-profile-widget",
   "version": "1.0.0",
   "description": "Widget of Github",
   "main": "dist/index.js",
@@ -10,6 +10,13 @@
     "build": "node build/build.main.js",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "Github Profile Card",
+    "github-profile-widget",
+    "github widget",
+    "Profile Card",
+    "widget"
+  ],
   "author": "Pradeep Thakur",
   "license": "MIT",
   "dependencies": {
