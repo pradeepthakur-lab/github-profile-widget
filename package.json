@@ -1,0 +1,21 @@
+{
+  "name": "github-widget",
+  "version": "1.0.0",
+  "description": "Widget of Github",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "serve src",
+    "build": "node build/build.main.js",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Pradeep Thakur",
+  "license": "MIT",
+  "dependencies": {
+    "@node-minify/core": "^8.0.5",
+    "@node-minify/terser": "^8.0.5",
+    "fs-extra": "^11.1.1",
+    "serve": "^14.2.0"
+  }
+}
