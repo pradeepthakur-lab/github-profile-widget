@@ -19,6 +19,10 @@
   ],
   "author": "Pradeep Thakur",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pradeepthakur-lab/github-profile-widget/issues"
+  },
+  "homepage": "https://github.com/pradeepthakur-lab/github-profile-widget#readme",
   "dependencies": {
     "@node-minify/core": "^8.0.5",
     "@node-minify/terser": "^8.0.5",
